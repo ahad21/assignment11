@@ -68,3 +68,24 @@ p {
     border: 1px solid black;
     padding: 10px;
 }
+
+
+
+/* CSS Variables */
+:root {
+    --primary-color: blue;
+    --font-size-large: 24px;
+    --font-size-medium: 16px;
+  }
+  
+  /* CSS Styling using Variables */
+  h1 {
+    color: var(--primary-color);
+    font-size: var(--font-size-large);
+  }
+  
+  p {
+    font-size: var(--font-size-medium)}
+  
+
+
