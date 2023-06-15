@@ -1,0 +1,70 @@
+/* CSS Styling */
+
+body {
+
+    font-family: 'Roboto', sans-serif, Arial;
+    background-image: url("https://images.unsplash.com/photo-1418985991508-e47386d96a71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container {
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+th:first-child {
+    background-color: gray;
+}
+
+/* Additional CSS Rules */
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: purple;
+}
+
+img::after {
+    content: " (Image description)";
+}
+
+p {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
